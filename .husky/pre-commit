@@ -1,0 +1,6 @@
+#!/bin/sh
+# Запускаем lint-staged для проверки файлов перед коммитом
+npx --no-install lint-staged
+
+# Если lint-staged прошел успешно, запускаем Cypress тесты
+npx cypress run --headless
