@@ -1,6 +1,6 @@
 describe("Проверяем работоспособность списка задач", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:5173");
+    cy.visit("http://localhost:3000");
   });
 
   it("Добавление новой задачи", () => {
