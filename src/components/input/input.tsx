@@ -44,7 +44,3 @@ const Input: React.FC = () => {
 
 export default Input
 
-// />
-// <button
-// 	onClick={handleAddTask}
-// 	className={styles.addButton}

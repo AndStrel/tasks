@@ -32,7 +32,7 @@ const TaskList: React.FC<TaskListProps> = ({ tasks }) => {
 				sx={{ textAlign: 'center', marginY: 2 }}
 				data-cy='task-list'
 			>
-				Бездельничаем
+				Нет задач
 			</Typography>
 		)
 	}
