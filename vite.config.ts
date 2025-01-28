@@ -6,7 +6,7 @@ export default defineConfig({
   base: '/tasks/',
   plugins: [react()],
   server: {
-    port: 3000, // Укажите нужный порт, например, 3000
-    open: true,  // Автоматически откроет браузер при запуске
+    port: 3000,
+    open: true, 
   },
 })

@@ -1,12 +1,12 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography } from '@mui/material';
-
+import styles from './header.module.scss';
 const Header: React.FC = () => {
   return (
-    <AppBar position="static">
+    <AppBar position="static" className={styles.header}>
       <Toolbar>
         <Typography variant="h6" component="div">
-          Простая проверка
+          План стажировки
         </Typography>
       </Toolbar>
     </AppBar>
